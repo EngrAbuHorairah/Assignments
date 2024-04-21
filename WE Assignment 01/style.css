@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0 5%;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Sky blue background color */
+}
+
+/* Page CSS prperties ends here */
+/* Header CSS prperties Starts here */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #87ceeb; 
+    border-bottom: 2px solid #000; /* Black border on the bottom */
+    font-size: 1.9em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-family: ui-monospace;
+}
+
+
+.logo img {
+    width: 165px; /* Adjust the logo width as needed */
+    height: 140px;
+}
+
+
+.header-subtitle {
+    font-size: 0.8rem; /* Adjust the font size for the subtitle (small) */
+    color: #666; /* Optional: Customize the color of the subtitle */
+}
+
+
+/* Header CSS prperties ends here */
+/* Body Layout CSS prperties Starts here */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Body Layout CSS prperties ends here */
+/* Body Navigation CSS prperties Starts here */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+/* Body navigation CSS prperties ends here */
+/* Body Content CSS prperties Starts here */
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cnt-img{
+    float: right;
+    margin: 0 0 20px 20px; /* Position image at top right with margin */
+    max-width: 300px;
+    height: auto;
+}
+
+.content {
+    overflow: hidden; /* Clear the float */
+}
+
+.content p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Body Content CSS prperties ends here */
+/* Footer CSS prperties Starts here */
+
+.footer {
+    text-align: center;
+    background-color: #343a40; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+}
